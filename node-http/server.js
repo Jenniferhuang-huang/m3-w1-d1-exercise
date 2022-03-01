@@ -44,6 +44,7 @@ var server = http.createServer((req, res) => {
     fs.end(
       `<html><body><h1>Error 404: ${req.method} not supported</h1></body></html>`
     );
+    
   }
 });
 
